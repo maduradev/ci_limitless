@@ -8,31 +8,31 @@
 
 	<!-- Global stylesheets -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
-	<link href="template/assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
-	<link href="template/assets/css/minified/bootstrap.min.css" rel="stylesheet" type="text/css">
-	<link href="template/assets/css/minified/core.min.css" rel="stylesheet" type="text/css">
-	<link href="template/assets/css/minified/components.min.css" rel="stylesheet" type="text/css">
-	<link href="template/assets/css/minified/colors.min.css" rel="stylesheet" type="text/css">
+	<link href="<?php echo base_url(); ?>template/assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+	<link href="<?php echo base_url(); ?>template/assets/css/minified/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="<?php echo base_url(); ?>template/assets/css/minified/core.min.css" rel="stylesheet" type="text/css">
+	<link href="<?php echo base_url(); ?>template/assets/css/minified/components.min.css" rel="stylesheet" type="text/css">
+	<link href="<?php echo base_url(); ?>template/assets/css/minified/colors.min.css" rel="stylesheet" type="text/css">
 	<!-- /global stylesheets -->
 
 	<!-- Core JS files -->
-	<script type="text/javascript" src="template/assets/js/plugins/loaders/pace.min.js"></script>
-	<script type="text/javascript" src="template/assets/js/core/libraries/jquery.min.js"></script>
-	<script type="text/javascript" src="template/assets/js/core/libraries/bootstrap.min.js"></script>
-	<script type="text/javascript" src="template/assets/js/plugins/loaders/blockui.min.js"></script>
+	<script type="text/javascript" src="<?php echo base_url(); ?>template/assets/js/plugins/loaders/pace.min.js"></script>
+	<script type="text/javascript" src="<?php echo base_url(); ?>template/assets/js/core/libraries/jquery.min.js"></script>
+	<script type="text/javascript" src="<?php echo base_url(); ?>template/assets/js/core/libraries/bootstrap.min.js"></script>
+	<script type="text/javascript" src="<?php echo base_url(); ?>template/assets/js/plugins/loaders/blockui.min.js"></script>
 	<!-- /core JS files -->
 
 	<!-- Theme JS files -->
-	<script type="text/javascript" src="template/assets/js/plugins/visualization/d3/d3.min.js"></script>
-	<script type="text/javascript" src="template/assets/js/plugins/visualization/d3/d3_tooltip.js"></script>
-	<script type="text/javascript" src="template/assets/js/plugins/forms/styling/switchery.min.js"></script>
-	<script type="text/javascript" src="template/assets/js/plugins/forms/styling/uniform.min.js"></script>
-	<script type="text/javascript" src="template/assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
-	<script type="text/javascript" src="template/assets/js/plugins/ui/moment/moment.min.js"></script>
-	<script type="text/javascript" src="template/assets/js/plugins/pickers/daterangepicker.js"></script>
+	<script type="text/javascript" src="<?php echo base_url(); ?>template/assets/js/plugins/visualization/d3/d3.min.js"></script>
+	<script type="text/javascript" src="<?php echo base_url(); ?>template/assets/js/plugins/visualization/d3/d3_tooltip.js"></script>
+	<script type="text/javascript" src="<?php echo base_url(); ?>template/assets/js/plugins/forms/styling/switchery.min.js"></script>
+	<script type="text/javascript" src="<?php echo base_url(); ?>template/assets/js/plugins/forms/styling/uniform.min.js"></script>
+	<script type="text/javascript" src="<?php echo base_url(); ?>template/assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
+	<script type="text/javascript" src="<?php echo base_url(); ?>template/assets/js/plugins/ui/moment/moment.min.js"></script>
+	<script type="text/javascript" src="<?php echo base_url(); ?>template/assets/js/plugins/pickers/daterangepicker.js"></script>
 
-	<script type="text/javascript" src="template/assets/js/core/app.js"></script>
-	<script type="text/javascript" src="template/assets/js/pages/dashboard.js"></script>
+	<script type="text/javascript" src="<?php echo base_url(); ?>template/assets/js/core/app.js"></script>
+	<script type="text/javascript" src="<?php echo base_url(); ?>template/assets/js/pages/dashboard.js"></script>
 	<!-- /theme JS files -->
 
 </head>
@@ -42,7 +42,7 @@
 	<!-- Main navbar -->
 	<div class="navbar navbar-inverse">
 		<div class="navbar-header">
-			<a class="navbar-brand" href="index.html"><img src="template/assets/images/logo_light.png" alt=""></a>
+			<a class="navbar-brand" href="index.html"><img src="<?php echo base_url(); ?>template/assets/images/logo_light.png" alt=""></a>
 
 			<ul class="nav navbar-nav visible-xs-block">
 				<li><a data-toggle="collapse" data-target="#navbar-mobile"><i class="icon-tree5"></i></a></li>
@@ -138,17 +138,17 @@
 			<ul class="nav navbar-nav navbar-right">
 				<li class="dropdown language-switch">
 					<a class="dropdown-toggle" data-toggle="dropdown">
-						<img src="template/assets/images/flags/gb.png" class="position-left" alt="">
+						<img src="<?php echo base_url(); ?>template/assets/images/flags/gb.png" class="position-left" alt="">
 						English
 						<span class="caret"></span>
 					</a>
 
 					<ul class="dropdown-menu">
-						<li><a class="deutsch"><img src="template/assets/images/flags/de.png" alt=""> Deutsch</a></li>
-						<li><a class="ukrainian"><img src="template/assets/images/flags/ua.png" alt=""> Українська</a></li>
-						<li><a class="english"><img src="template/assets/images/flags/gb.png" alt=""> English</a></li>
-						<li><a class="espana"><img src="template/assets/images/flags/es.png" alt=""> España</a></li>
-						<li><a class="russian"><img src="template/assets/images/flags/ru.png" alt=""> Русский</a></li>
+						<li><a class="deutsch"><img src="<?php echo base_url(); ?>template/assets/images/flags/de.png" alt=""> Deutsch</a></li>
+						<li><a class="ukrainian"><img src="<?php echo base_url(); ?>template/assets/images/flags/ua.png" alt=""> Українська</a></li>
+						<li><a class="english"><img src="<?php echo base_url(); ?>template/assets/images/flags/gb.png" alt=""> English</a></li>
+						<li><a class="espana"><img src="<?php echo base_url(); ?>template/assets/images/flags/es.png" alt=""> España</a></li>
+						<li><a class="russian"><img src="<?php echo base_url(); ?>template/assets/images/flags/ru.png" alt=""> Русский</a></li>
 					</ul>
 				</li>
 
@@ -170,7 +170,7 @@
 						<ul class="media-list dropdown-content-body">
 							<li class="media">
 								<div class="media-left">
-									<img src="template/assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
+									<img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
 									<span class="badge bg-danger-400 media-badge">5</span>
 								</div>
 
@@ -186,7 +186,7 @@
 
 							<li class="media">
 								<div class="media-left">
-									<img src="template/assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
+									<img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
 									<span class="badge bg-danger-400 media-badge">4</span>
 								</div>
 
@@ -201,7 +201,7 @@
 							</li>
 
 							<li class="media">
-								<div class="media-left"><img src="template/assets/images/placeholder.jpg" class="img-circle img-sm" alt=""></div>
+								<div class="media-left"><img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-sm" alt=""></div>
 								<div class="media-body">
 									<a href="#" class="media-heading">
 										<span class="text-semibold">Jeremy Victorino</span>
@@ -213,7 +213,7 @@
 							</li>
 
 							<li class="media">
-								<div class="media-left"><img src="template/assets/images/placeholder.jpg" class="img-circle img-sm" alt=""></div>
+								<div class="media-left"><img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-sm" alt=""></div>
 								<div class="media-body">
 									<a href="#" class="media-heading">
 										<span class="text-semibold">Beatrix Diaz</span>
@@ -225,7 +225,7 @@
 							</li>
 
 							<li class="media">
-								<div class="media-left"><img src="template/assets/images/placeholder.jpg" class="img-circle img-sm" alt=""></div>
+								<div class="media-left"><img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-sm" alt=""></div>
 								<div class="media-body">
 									<a href="#" class="media-heading">
 										<span class="text-semibold">Richard Vango</span>
@@ -245,7 +245,7 @@
 
 				<li class="dropdown dropdown-user">
 					<a class="dropdown-toggle" data-toggle="dropdown">
-						<img src="template/assets/images/placeholder.jpg" alt="">
+						<img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" alt="">
 						<span>Victoria</span>
 						<i class="caret"></i>
 					</a>
@@ -279,7 +279,7 @@
 					<div class="sidebar-user">
 						<div class="category-content">
 							<div class="media">
-								<a href="#" class="media-left"><img src="template/assets/images/placeholder.jpg" class="img-circle img-sm" alt=""></a>
+								<a href="#" class="media-left"><img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-sm" alt=""></a>
 								<div class="media-body">
 									<span class="media-heading text-semibold">Victoria Baker</span>
 									<div class="text-size-mini text-muted">
@@ -1180,7 +1180,7 @@
 											<tr>
 												<td>
 													<div class="media-left media-middle">
-														<a href="#"><img src="template/assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+														<a href="#"><img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
 													</div>
 													<div class="media-left">
 														<div class=""><a href="#" class="text-default text-semibold">Facebook</a></div>
@@ -1212,7 +1212,7 @@
 											<tr>
 												<td>
 													<div class="media-left media-middle">
-														<a href="#"><img src="template/assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+														<a href="#"><img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
 													</div>
 													<div class="media-left">
 														<div class=""><a href="#" class="text-default text-semibold">Youtube videos</a></div>
@@ -1244,7 +1244,7 @@
 											<tr>
 												<td>
 													<div class="media-left media-middle">
-														<a href="#"><img src="template/assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+														<a href="#"><img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
 													</div>
 													<div class="media-left">
 														<div class=""><a href="#" class="text-default text-semibold">Spotify ads</a></div>
@@ -1276,7 +1276,7 @@
 											<tr>
 												<td>
 													<div class="media-left media-middle">
-														<a href="#"><img src="template/assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+														<a href="#"><img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
 													</div>
 													<div class="media-left">
 														<div class=""><a href="#" class="text-default text-semibold">Twitter ads</a></div>
@@ -1315,7 +1315,7 @@
 											<tr>
 												<td>
 													<div class="media-left media-middle">
-														<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+														<a href="#"><img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
 													</div>
 													<div class="media-left">
 														<div class=""><a href="#" class="text-default text-semibold">Bing campaign</a></div>
@@ -1347,7 +1347,7 @@
 											<tr>
 												<td>
 													<div class="media-left media-middle">
-														<a href="#"><img src="template/assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+														<a href="#"><img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
 													</div>
 													<div class="media-left">
 														<div class=""><a href="#" class="text-default text-semibold">Amazon ads</a></div>
@@ -1379,7 +1379,7 @@
 											<tr>
 												<td>
 													<div class="media-left media-middle">
-														<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+														<a href="#"><img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
 													</div>
 													<div class="media-left">
 														<div class=""><a href="#" class="text-default text-semibold">Dribbble ads</a></div>
@@ -1614,7 +1614,7 @@
 												</td>
 												<td>
 													<div class="media-left media-middle">
-														<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+														<a href="#"><img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
 													</div>
 
 													<div class="media-body">
@@ -1809,7 +1809,7 @@
 												</td>
 												<td>
 													<div class="media-left media-middle">
-														<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+														<a href="#"><img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
 													</div>
 
 													<div class="media-body">
@@ -1852,7 +1852,7 @@
 												</td>
 												<td>
 													<div class="media-left media-middle">
-														<a href="#"><img src="assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
+														<a href="#"><img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-xs" alt=""></a>
 													</div>
 
 													<div class="media-body">
@@ -1947,7 +1947,7 @@
 				                					<div class="media-left">
 														<div class="thumb">
 															<a href="#">
-																<img src="assets/images/placeholder.jpg" class="img-responsive img-rounded media-preview" alt="">
+																<img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-responsive img-rounded media-preview" alt="">
 																<span class="zoom-image"><i class="icon-play3"></i></span>
 															</a>
 														</div>
@@ -1967,7 +1967,7 @@
 				                					<div class="media-left">
 														<div class="thumb">
 															<a href="#">
-																<img src="assets/images/placeholder.jpg" class="img-responsive img-rounded media-preview" alt="">
+																<img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-responsive img-rounded media-preview" alt="">
 																<span class="zoom-image"><i class="icon-play3"></i></span>
 															</a>
 														</div>
@@ -1991,7 +1991,7 @@
 				                					<div class="media-left">
 														<div class="thumb">
 															<a href="#">
-																<img src="assets/images/placeholder.jpg" class="img-responsive img-rounded media-preview" alt="">
+																<img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-responsive img-rounded media-preview" alt="">
 																<span class="zoom-image"><i class="icon-play3"></i></span>
 															</a>
 														</div>
@@ -2011,7 +2011,7 @@
 				                					<div class="media-left">
 														<div class="thumb">
 															<a href="#">
-																<img src="assets/images/placeholder.jpg" class="img-responsive img-rounded media-preview" alt="">
+																<img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-responsive img-rounded media-preview" alt="">
 																<span class="zoom-image"><i class="icon-play3"></i></span>
 															</a>
 														</div>
@@ -2342,7 +2342,7 @@
 										<ul class="media-list">
 											<li class="media">
 												<div class="media-left">
-													<img src="template/assets/images/placeholder.jpg" class="img-circle img-xs" alt="">
+													<img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-xs" alt="">
 													<span class="badge bg-danger-400 media-badge">8</span>
 												</div>
 
@@ -2358,7 +2358,7 @@
 
 											<li class="media">
 												<div class="media-left">
-													<img src="template/assets/images/placeholder.jpg" class="img-circle img-xs" alt="">
+													<img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-xs" alt="">
 													<span class="badge bg-danger-400 media-badge">6</span>
 												</div>
 
@@ -2374,7 +2374,7 @@
 
 											<li class="media">
 												<div class="media-left">
-													<img src="template/assets/images/placeholder.jpg" class="img-circle img-xs" alt="">
+													<img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-xs" alt="">
 												</div>
 
 												<div class="media-body">
@@ -2389,7 +2389,7 @@
 
 											<li class="media">
 												<div class="media-left">
-													<img src="template/assets/images/placeholder.jpg" class="img-circle img-xs" alt="">
+													<img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-xs" alt="">
 												</div>
 
 												<div class="media-body">
@@ -2404,7 +2404,7 @@
 
 											<li class="media">
 												<div class="media-left">
-													<img src="template/assets/images/placeholder.jpg" class="img-circle img-xs" alt="">
+													<img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-xs" alt="">
 												</div>
 
 												<div class="media-body">
@@ -2423,7 +2423,7 @@
 										<ul class="media-list">
 											<li class="media">
 												<div class="media-left">
-													<img src="template/assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
+													<img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
 												</div>
 
 												<div class="media-body">
@@ -2438,7 +2438,7 @@
 
 											<li class="media">
 												<div class="media-left">
-													<img src="template/assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
+													<img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
 												</div>
 
 												<div class="media-body">
@@ -2453,7 +2453,7 @@
 
 											<li class="media">
 												<div class="media-left">
-													<img src="template/assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
+													<img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
 												</div>
 
 												<div class="media-body">
@@ -2468,7 +2468,7 @@
 
 											<li class="media">
 												<div class="media-left">
-													<img src="template/assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
+													<img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
 												</div>
 
 												<div class="media-body">
@@ -2483,7 +2483,7 @@
 
 											<li class="media">
 												<div class="media-left">
-													<img src="template/assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
+													<img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
 												</div>
 
 												<div class="media-body">
@@ -2502,7 +2502,7 @@
 										<ul class="media-list">
 											<li class="media">
 												<div class="media-left">
-													<img src="template/assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
+													<img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
 												</div>
 
 												<div class="media-body">
@@ -2517,7 +2517,7 @@
 
 											<li class="media">
 												<div class="media-left">
-													<img src="template/assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
+													<img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
 												</div>
 
 												<div class="media-body">
@@ -2532,7 +2532,7 @@
 
 											<li class="media">
 												<div class="media-left">
-													<img src="template/assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
+													<img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
 												</div>
 
 												<div class="media-body">
@@ -2547,7 +2547,7 @@
 
 											<li class="media">
 												<div class="media-left">
-													<img src="template/assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
+													<img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
 												</div>
 
 												<div class="media-body">
@@ -2562,7 +2562,7 @@
 
 											<li class="media">
 												<div class="media-left">
-													<img src="template/assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
+													<img src="<?php echo base_url(); ?>template/assets/images/placeholder.jpg" class="img-circle img-sm" alt="">
 												</div>
 
 												<div class="media-body">
